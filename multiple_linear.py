@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+# Multiple linear regression from scratch
 class LinearRegression:
   def __init__(self, X, y) -> None:
     assert len(X) == len(y), "Both arrays should be the same size"
